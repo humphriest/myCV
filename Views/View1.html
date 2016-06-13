@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+     <title>View 1</title>
+    </head>
+    <body ng-app="ngCribs">
+        <div class="container">
+            Name:
+            <br/>
+            <ul>
+                <li data-ng-repeat="crib in cribs | cribsFilter:priceInfo | orderBy: '-id'"></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim Humphries</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <div id="load_screen">
+        <div id="loading" >
+            <img src="images/dots.gif">
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load", function() {
+
+            var hide = function() {
+                document.body.removeChild(load_screen);
+            };
+
+            var load_screen = document.getElementById("load_screen");
+            setTimeout(hide,3000);
+
+        })
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<!--<div class="loader">Loading...</div>-->
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">The Tim Humphries Experience
+                <div class="hpe-user"></div></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#other">Other</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-social-navbar">
+            <div class="navbar-writing">
+            Check out my social media!
+
+            <a href="https://www.facebook.com">
+                <img src="images/fb.png" class="navbar-icon">
+            </a>
+            <a href="https://ie.linkedin.com/in/tim-humphries-b5b68194">
+                <img src="images/linkedin.png" class="navbar-icon">
+            </a>
+            <a href="mailto:thumphries5@hotmail.com">
+                <img src="images/email.png" class="navbar-icon">
+            </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Cover Photo-->
+
+<img class="image" src="images/laptop.in.use.png">
+<div class="big-padding"></div>
+<div class="col-md-1">
+</div>
+<div class="container">
+    <div class="col-md-5 col-sm-7 col-xs-12">
+        <h1>Hi! I'm Tim Humphries</h1>
+        <h5>Software Engineer / Webdeveloper</h5>
+        <div class="col-md-2">
+            <a href="scripts/Weekly%20Log%20Form%202016%20template%20-%20Copy%20(2).docx" download>
+                <div class="btn btn-lg download-button">Download CV
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="padding"></div>
+<!-- About me -->
+<div class="container">
+    <div class="row">
+        <div id="resume">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-1 col-lg-1 page-type">
+                Resume
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<br /><br />
+<!-- Skills & Hobbies -->
+
+<div class="container resume">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="text-center">
+                <div class="col-md-4 col-lg-4">
+                    <div class="resume-box">
+                        <span class="glyphicon glyphicon-search icon main"></span>
+                    <h4><strong class="black">About</strong> Me </h4>
+                        <p class="text-center">
+                            A little bit about myself will go here. I will talk about me as a student, what I have done in college, a small bit,
+                            what I plan to achieve and where I wish to be when I finish my degree. Lastly, go on to talk about what I can give
+                            to a company to hire you.
+                        </p>
+                        <p>
+                            Write some more meaningless stuff here about myself to take up space on the screenuntil I can create another thing that
+                            will take me ages to learn but dont you worry Ill get there.
+                        </p>
+                </div>
+                    <div class="resume-box">
+                        <span class="glyphicon glyphicon-education icon main odd"></span>
+                        <h4><strong class="black">Education</strong> & Jobs</h4>
+                        <div class="timeline">
+                        <div class="timeline-event">
+                            <div class="timeline-dot"></div>
+                            <span class="event-date">September 2007 - June 2013</span>
+                            <span class="event-name">Blackrock College</span>
+                            <span class="event-description">Obtained 460 points in the Leaving Certificate</span>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-dot"></div>
+                            <span class="event-date">September 2013 - current</span>
+                            <span class="event-name">Dublin Institute of Technology</span>
+                            <span class="event-description">B.Sc in Business Computing</span>
+                        </div>
+                            <div class="timeline-event">
+                                <div class="timeline-dot"></div>
+                                <span class="event-date">April 2016 - September 2016</span>
+                                <span class="event-name">Hewlett Packard Enterprise</span>
+                                <span class="event-description">Software Engineer Internship</span>
+                            </div>
+                          <!--  <div class="timeline-event">
+                                <div class="timeline-dot"></div>
+                                <span class="event-date">22/06/1994</span>
+                                <span class="event-name">I Was Born!</span>
+                                <span class="event-description">The day the earth stood still</span>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="resume-box">
+                        <span class="glyphicon glyphicon-glass icon main odd"></span>
+                    <h4>My <strong class="black">Specialities</strong></h4>
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <ul><li><span class="glyphicon glyphicon-transfer left speciality-icon"></span></li>
+                                    <li><strong>Responsive Web Design</strong></li>
+                                    <li class="small">something small</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul><li><img class="icon resize left speciality-icon" src="images/computer-icon.jpg"></li>
+                                    <li><strong>Front-end Development</strong></li>
+                                    <li class="small"> something front-end</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul><li><span class="glyphicon glyphicon-list-alt left speciality-icon"></span></li>
+                                    <li><strong>Software Project Management</strong></li>
+                                    <li class="small"> something front-end</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                    <div class="resume-box">
+                        <h4>Hobbies<strong class="black">& Interests</strong></h4>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="resume-box">
+                        <span class="glyphicon glyphicon-screenshot icon main"></span>
+                    <h4><strong class="black">Skills</strong></h4>
+
+                        <div class="skill">
+                            <strong class="right">Java</strong>
+                            <div class="padding-skill"></div>
+                            <div class="under-skill-bar">
+                            </div>
+                            <div class="java-skill-bar">
+                                <div class="right-skill">90</div>
+                            </div>
+                        </div>
+
+                    <div class="skill">
+                        <strong class="right">CSS & HTML5</strong>
+                        <div class="padding-skill"></div>
+                        <div class="under-skill-bar">
+                        </div>
+                        <div class="html-skill-bar">
+                            <div class="right-skill">85</div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        <strong class="right skills-text">JavaScript & AngularJS</strong>
+                        <div class="padding-skill"></div>
+                        <div class="under-skill-bar">
+                        </div>
+                        <div class="js-skill-bar">
+                            <div class="right-skill">75</div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <strong class="right skills-text">Communication & Teamwork</strong>
+                        <div class="padding-skill"></div>
+                        <div class="under-skill-bar">
+                        </div>
+                        <div class="candt-skill-bar">
+                            <div class="right-skill">100</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="resume-box">
+                        <h4>Hobbies<strong class="black">& Interests</strong></h4>
+                        <div class="col-md-4">
+                            <div class="hobby-circles">
+                                <div class="glyphicon glyphicon-headphones hobby-sizes">
+                                </div>
+                            </div>
+                            <h5 class="mid">Music</h5>
+                            <div class="hobby-circles">
+                                <img src="images/dumbell.png" class="size2">
+                            </div>
+                            <h5 class="mid">Fitness</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hobby-circles">
+                                <div class="glyphicon glyphicon-plane hobby-sizes">
+                                </div>
+                            </div>
+                            <h5 class="mid">Travel</h5>
+                            <div class="hobby-circles">
+                                <img src="images/ball.png" class="size2">
+                            </div>
+                            <h5>Sports</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hobby-circles">
+                                <img src="images/coffee.png" class="size">
+                            </div>
+                            <h5 class="mid">Coffee</h5>
+                            <div class="hobby-circles">
+                                <img src="images/book.png" class="size2">
+                            </div>
+                            <h5 class="mid">Reading</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="projects">
+            <div class="col-md-12 col-lg-12">
+                <div class="col-md-1 col-lg-1 page-type">
+                    Projects
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <div class="text-center"></div>
+            <div class="big-padding"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="other">
+            <div class="col-md-12 col-lg-12">
+                <div class="col-md-1 col-lg-1 page-type">
+                    other
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <div class="text-center"></div>
+            <div class="big-padding"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="contact">
+            <div class="col-md-12 col-lg-12">
+                <div class="col-md-1 col-lg-1 page-type">
+                    Contact
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<img src="images/home.png" class="map">
+<div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="padding-small"></div>
+        <div class="container">
+            <div class="row">
+                <div class="contact-box">
+                    <div class="relative">
+                        <h2 class="contact">Don't Hesitate to<br /> <strong>Contact me!</strong></h2>
+                        <span class="glyphicon glyphicon-map-marker contact-icon padding-top"></span>
+                        <div class="contact-text padding-top">
+                            9 Kerrymount Close,</br>
+                            Foxrock,</br>
+                            Dublin 18, Ireland
+                        </div>
+                        <span class="glyphicon glyphicon-earphone contact-icon"></span>
+                        <div class="contact-text">
+                            +353 (86)85206
+                        </div>
+                        <span class="glyphicon glyphicon-comment contact-icon"></span>
+                        <div class="contact-text">
+                            <a class="mailto" href="mailto:thumphries5@hotmail.com">thumphries5@hotmail.com</a>
+                        </div>
+                        <div class="padding-top"></div>
+                        <h4 class="contact-secondary">Check out my social media!</h4>
+                        </br><div class="col-md-2">
+                        <div class="contact-fb-icon">
+                            <img src="images/fb.png" class="center-icon">
+                        </div></div>
+                        <div class="col-md-2">
+                            <div class="contact-lin-icon">
+                                <img src="images/linkedin.png" class="center-icon">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="contact-hot-icon">
+                                <img src="images/email.png" class="center-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4772.522428648206!2d-6.1715106!3d53.2669392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDE1JzU3LjgiTiA2wrAxMCcwOS43Ilc!5e0!3m2!1sen!2suk!4v1465316345825" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+    </div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+</html>
+<!--<div class="container">
+    <p class="text-center">
+        A little bit about myself will go here. I will talk about me as a student, what I have done in college, a small bit,
+        what I plan to achieve and where I wish to be when I finish my degree. Lastly, go on to talk about what I can give
+        to a company to hire you.
+    </p>
+</div>-->
